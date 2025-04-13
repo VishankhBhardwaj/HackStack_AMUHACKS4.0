@@ -9,7 +9,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { useStudySession } from '../contexts/StudySessionContext';
 import { useEmotionDetection } from '../contexts/EmotionDetectionContext';
 import { BookOpen, Trophy, Calendar, Upload, BarChart3, Clock, Sparkles, Brain, HeartPulse, Video, MessageSquare, PlusCircle, ChevronRight } from 'lucide-react';
-
+//start
 const Dashboard = () => {
   const { user } = useAuth();
   const { sessionStats, learningStyle, studyStreak, getAdaptiveContent } = useStudySession();
